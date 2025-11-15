@@ -1,4 +1,4 @@
-user_input = float(input("Enter the size of the pattern: "))
+user_input = int(input("Enter the size of the pattern: "))
 i = 0
 while i < user_input:
     print("*", end="")
