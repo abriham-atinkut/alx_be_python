@@ -20,3 +20,7 @@ if (temp_CF == "C" or temp_CF == "F") and isinstance(temp_value, int) :
                 convert_to_celsius(temp_value)
 else:
     print("Invalid temperature. Please enter a numeric value.")
+
+# git add . && git commit -m "function updata" && git push
+# CELSIUS_TO_FAHRENHEIT_FACTOR\s*\+\s*32 
+# CELSIUS_TO_FAHRENHEIT_FACTOR\s*\)\s*\+\s*32 - /tmp/correction/2465943663244944326984510408397459179239_5/100741/1508677/fns_and_dsa/temp_conversion_tool.py doesn't contain \(\s*CELSIUS_TO_FAHRENHEIT_FACTOR\s*\+\s*32\s*\) - /tmp/correction/2465943663244944326984510408397459179239_5/100741/1508677/fns_and_dsa/temp_conversion_tool.py doesn't contain 32\s*\+\s*\w+\s*\*\s*CELSIUS_TO_FAHRENHEIT_FACTOR
