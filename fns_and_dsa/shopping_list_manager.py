@@ -13,28 +13,30 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            add_item = input("Add Item that you want: ")
+            add_item = input("Enter the item to add: ")
             shopping_list.append(add_item)
+            print(f"'{add_item}' is add to shopping list.\n")
             # Prompt for and add an item
             pass
         elif choice == '2':
-            remove_item = input("Name item you want to remove: ")
+            remove_item = input("Enter the item to remove: ")
             if remove_item in shopping_list:
                 shopping_list.remove(remove_item)
+                print(f"'{remove_item}' is removed from shopping list.\n")
             else:
-                print(f" This '{remove_item}' item didn't excist.")
+                print(f"'{remove_item}' item didn't exist.\n")
             # Prompt for and remove an item
             pass
         elif choice == '3':
-            print(f"Shopping lists:>>> {shopping_list}")
+            print(f"Shopping lists:>>> {shopping_list}\n")
             # Display the shopping list
             pass
         elif choice == '4':
             shop = False
-            print("Goodbye!")
+            print("Goodbye!\n")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid choice. Please try again.\n")
 
 if __name__ == "__main__":
     main()
