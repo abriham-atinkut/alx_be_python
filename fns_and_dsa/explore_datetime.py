@@ -13,8 +13,8 @@ def calculate_future_date():
 
     future_days_user_asks = timedelta(days=future_date)
     future_time = current_date + future_days_user_asks
-    formatted_date = future_time.strftime("%Y-%m-%d")
-    print(f"Future date: {formatted_date}")
+    # formatted_date = future_time.strftime("%Y-%m-%d")
+    print(f"Future date: {future_time.strftime("%Y-%m-%d")}")
 
 if __name__ == "__main__":
     calculate_future_date()
