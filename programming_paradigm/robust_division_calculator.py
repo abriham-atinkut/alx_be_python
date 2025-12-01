@@ -1,9 +1,11 @@
 def safe_divide(numerator, denominator):
     try:
-        return numerator / denominator
+        num1 = int(numerator)
+        num2 = int(denominator)
+        # print(num1)
+        # print(num2)
+        return num1 / num2
     except ZeroDivisionError:
-            print("Error: Cannot divide by zero.")
+            return "Error: Cannot divide by zero."
     except ValueError:
-            print("Error: Please enter numeric values only.")
-
-# safe_divide(10, 2)
+            return "Error: Please enter numeric values only."
