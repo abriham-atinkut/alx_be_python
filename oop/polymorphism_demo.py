@@ -23,3 +23,4 @@ class Circle(Shape):
         circ = self.radius * math.pi
         return circ
 
+# ["** 2"]
